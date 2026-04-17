@@ -3,16 +3,17 @@ import OldView from './OldStyle/OldBase'
 import NewView from './NewStyle/NewBase'
 
 function ViewSwitcher() {
-  const [setView, setCount] = useState(false)
+  const [View, setView] = useState(false)
 
   return (
     <>
-      <div>
-        <div className='fixed inset-0 size-auto max-h-none max-w-none overflow-y-auto bg-white backdrop:bg-transparent w-full h-30'>
-        <button onClick={()=>setCount(!setView)}>Push Here</button>
+      <div className='w-full'>
+        <div className='fixed inset-0 max-h-none max-w-none overflow-y-auto w-auto h-30 flex-1 justify-between  bg-red-400'>
+        <div>This is the modal for picking the view</div>
+        <button className='bg-amber-100 hover:bg-amber-400' onClick={()=>setView(!View)}>Push Here</button>
         </div>
         {
-              setView ? <><NewView/></> : <><OldView/></>           
+              View ? <><NewView/></> : <><OldView/></>           
         }
       </div>
     </>
