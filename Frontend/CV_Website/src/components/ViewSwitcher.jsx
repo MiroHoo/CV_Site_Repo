@@ -8,10 +8,13 @@ function ViewSwitcher() {
   return (
     <>
       <div className='w-full'>
-        <div className='fixed inset-0 max-h-none max-w-none overflow-y-auto w-auto h-30 flex-1 justify-between  bg-red-400'>
-        <div>This is the modal for picking the view</div>
-        <button className='bg-amber-100 hover:bg-amber-400' onClick={()=>setView(!View)}>Push Here</button>
+        <div className=' w-full'>
+        <div className='right-1 top-1 fixed overflow-y-auto items-center flex flex-col p-3.5 bg-amber-300/50'>
+        <p className=''>Switch View</p>
+        <button className='bg-amber-100 w-4/4 hover:bg-amber-400' onClick={()=>setView(!View)}>Push Here</button>
         </div>
+        </div>
+      
         {
               View ? <><NewView/></> : <><OldView/></>           
         }
