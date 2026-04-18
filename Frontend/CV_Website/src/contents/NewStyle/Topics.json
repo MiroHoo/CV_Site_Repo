@@ -1,0 +1,47 @@
+{
+    "Topics":  [
+        {
+            "Header": "About Me",
+            "Text": "I am a 25 year old IT enthusiast looking to work in the industry! I have a degree in Information and Communication engineering from Oulu University of Applied Sciences. Now I am looking for work inside the industry. I have a wide variety of experience from my studies and hobby projects that gives me a good foundation to find my place in the industry. I am most interested in embedded development and web development since these are ones I am quite familiar with and have hands-on software engineering experience with."
+        },
+        {
+            "Header": "Education",
+            "Schools": [
+                {
+                    "Name": "Bachelors of Engineering, Information and Communication Technologies",
+                    "Date": "15.8.2022 - Present",
+                    "Description": "I aced my studies at OAMK having an average of 4.4 as my grade for my studies. We studied multiple different frameworks, coding languages and software engineering techniques."
+                },
+                {
+                    "Name": "Savonlinna Lyseo Upper Secondary Middle School",
+                    "Date": "2017 - 2020",
+                    "Description": "I studied the Finnish standard upper secondary middle school curriculum. One of the subjects I really fell in love with during these studies was chemistry"
+                }
+            ]
+        },
+        {
+            "Header": "Experience",
+            "Positions": [
+                {
+                    "Name": "",
+                    "Date": "", 
+                    "Description": "",
+                    "Skills":""
+                },
+                {
+                    "Name": "",
+                    "Date": "", 
+                    "Description": "",
+                    "Skills":""
+                }
+            ]
+        },
+        {
+            "Header": "Notable Projects",
+            "Text": ""
+        }
+
+    ]
+        
+    
+}
