@@ -23,22 +23,47 @@
             "Header": "Experience",
             "Positions": [
                 {
-                    "Name": "",
-                    "Date": "", 
-                    "Description": "",
+                    "Name": "Night shift at the Savonlinna Mailia Oy paper routes",
+                    "Date": "The summers of 2022, 2023, 2024", 
+                    "Description": "During my shifts I would have to deliver papers in the designated time frame. Some days were busier than others making me have to adapt day to day.",
                     "Skills":""
                 },
                 {
-                    "Name": "",
-                    "Date": "", 
-                    "Description": "",
+                    "Name": "Savonlinna Folk Highschool Working as a handyman and a cleaner during each day",
+                    "Date": "7.2020 - 8.2021", 
+                    "Description": "During my civil service I worked at Savonlinna Folk Highscool doing odd jobs as a cleaner, groundskeeper and handyman!",
                     "Skills":""
                 }
             ]
         },
         {
             "Header": "Notable Projects",
-            "Text": ""
+            "Projects": [
+                {
+                    "Name": "Database study web app",
+                    "Technologies": "React, Node.js and SQL database",
+                    "Description": "During the summer of 2025 I built a website for the university for teaching purposes. The goal was to create a website which allowed the teacher to monitor and create tests which the students would take within the website. The website allowed the user to take tests or play an aracade style mode which had the goal of making the learnign experience fun.",
+                    "Link": "https://github.com/MiroHoo/DatabaseStudyWebapp"
+                },
+                {
+                    "Name": "Movie fan website",
+                    "Technologies": "React, Node.js and PostgreSQL database",
+                    "Description": "This was done as one of our first React projects. Again the aim was to design and build a full-stack project which allowed users to use data from external APIs to interact within the website itself.",
+                    "Link": "https://github.com/MiroHoo/IET-Movie-Webapp"
+                },
+                {
+                    "Name": "ATM simulation",
+                    "Technologies": "Qt Creator, C++, Node.js and SQL Database ",
+                    "Description": "The aim of this project was to build an ATM simulation using an RFID periphiral and windows native code. This was a full-stack project which was one of our first and showed us the ropes of building/designing front-end, back-end and databases.",
+                    "Link": "https://github.com/MiroHoo/ATM-Simulation"
+                },
+                {
+                    "Name": "Reaction Time Aracade Cabinet",
+                    "Technologies": "Arduino, Electronics components",
+                    "Description": "Using an Arduino microcontroller we built and designed a reaction time game that we built into an arcade cabinet. The time window for this project was tight, but the project turned out good!",
+                    "Link": "https://youtu.be/NTODrlYqC3E"
+                }
+            ]
         }
 
     ]
