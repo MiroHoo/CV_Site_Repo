@@ -6,14 +6,13 @@ function ViewSwitcher() {
 
   return (
     <>
-      <div className=''>
+      <div>
         <Header/>
-        <div>OldBase_Preview 22</div>
-        <RenderStudies/>
-        __________
-        <RenderExperience/>
-        ______________
-        <RenderProjects/>
+        <div className='border-3 m-2'><RenderStudies/></div>
+
+        <div className='border-3 m-2'><RenderExperience/></div>
+
+        <div className='border-3 m-2'><RenderProjects/></div>
       </div>
     </>
   )
@@ -22,11 +21,11 @@ function ViewSwitcher() {
       var StudyElemArrray = []; 
       Studies.forEach(el => {
         StudyElemArrray.push(
-          <>
-          <div>{el.Name}</div>
-          <div>{el.Date}</div>
-          <div>{el.Description}</div>
-          </>
+          <div className='flex-1 justify-center border-2'>
+          <div className='text-center'><h className='font-bold text-2xl'>{el.Name}</h></div>
+          <div className='text-center'><p className='font-light text-[20px]'>{el.Date}</p></div>
+          <div className='text-center'><p className='text-[18px]'>{el.Description}</p></div>
+          </div>
         )
       })
       
@@ -37,11 +36,11 @@ function ViewSwitcher() {
       var StudyElemArrray = []; 
       Postitions.forEach(el => {
         StudyElemArrray.push(
-          <>
-          <div>{el.Name}</div>
-          <div>{el.Date}</div>
-          <div>{el.Description}</div>
-          </>
+          <div className='flex-1 justify-center border-2 bg-amber-100'>
+          <div className='flex-1 justify-between flex-row'><h className='font-bold text-2xl w-fit'>{el.Name}</h><div className='w-fit' ><img src='src\assets\NewStyle\arrow-bar-down.svg' className='w-20'/></div></div>
+          <div className='text-center'><p className='font-light text-[20px]'>{el.Date}</p></div>
+          <div className='text-center'><p className='text-[18px]'>{el.Description}</p></div>
+          </div>
         )
       })
 
@@ -53,7 +52,7 @@ function ViewSwitcher() {
       Projects.forEach(el => {
         StudyElemArrray.push(
           <>
-          <div>{el.Name}</div>
+          <div><h className='font-bold text-2xl'>{el.Name}</h></div>
           <div>{el.Technologies}</div>
           <div>{el.Description}</div>
           </>
